@@ -1,0 +1,36 @@
+{
+  "name": "ai-solutions-website",
+  "version": "1.0.0",
+  "description": "Professional website template for AI startup company",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "ai",
+    "startup",
+    "website",
+    "template",
+    "artificial-intelligence",
+    "business",
+    "responsive",
+    "modern"
+  ],
+  "author": "AI Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ai-solutions-website.git"
+  },
+  "homepage": "https://your-username.github.io/ai-solutions-website",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
